@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>objectiveId</key>
+		<integer>1</integer>
+		<key>objectiveName</key>
+		<string>Reach a 30 punch streaQ</string>
+		<key>isComplete</key>
+		<false/>
+		<key>ruleType</key>
+		<string>kPunchNumberType</string>
+		<key>limit</key>
+		<integer>30</integer>
+		<key>isUpperBound</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>objectiveId</key>
+		<integer>2</integer>
+		<key>objectiveName</key>
+		<string>Punch @ rate of min 3 punches/sec</string>
+		<key>isComplete</key>
+		<false/>
+		<key>ruleType</key>
+		<string>kPunchTimerType</string>
+		<key>limit</key>
+		<integer>3</integer>
+		<key>isUpperBound</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>objectiveId</key>
+		<integer>3</integer>
+		<key>objectiveName</key>
+		<string>Reach a 50 punch streaQ</string>
+		<key>isComplete</key>
+		<false/>
+		<key>ruleType</key>
+		<string>kPunchNumberType</string>
+		<key>limit</key>
+		<integer>50</integer>
+		<key>isUpperBound</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>objectiveId</key>
+		<integer>4</integer>
+		<key>objectiveName</key>
+		<string>Punch a total of 500 punches</string>
+		<key>isComplete</key>
+		<false/>
+		<key>ruleType</key>
+		<string>kTotalPunchNumberType</string>
+		<key>limit</key>
+		<integer>500</integer>
+		<key>isUpperBound</key>
+		<true/>
+	</dict>
+</array>
+</plist>
