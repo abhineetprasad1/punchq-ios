@@ -181,6 +181,8 @@
 		797520CB16DFE62C0050F7B4 /* playButton1Selected-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 797520C916DFE62C0050F7B4 /* playButton1Selected-ipad.png */; };
 		797520CD16DFED160050F7B4 /* soundOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 797520CC16DFED160050F7B4 /* soundOn.png */; };
 		797520CF16DFF6E70050F7B4 /* soundOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 797520CE16DFF6E60050F7B4 /* soundOff.png */; };
+		79994A47180B3F3D00DCB811 /* gameName.png in Resources */ = {isa = PBXBuildFile; fileRef = 79994A46180B3F3D00DCB811 /* gameName.png */; };
+		79994A49180B3F4E00DCB811 /* sizzle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79994A48180B3F4E00DCB811 /* sizzle.mp3 */; };
 		79A1D38D16EB71EB00CA49EA /* bang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79A1D38C16EB71EB00CA49EA /* bang.mp3 */; };
 		79A1D38F16EC852000CA49EA /* menuBackground2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79A1D38E16EC852000CA49EA /* menuBackground2.mp3 */; };
 		79A1D39116EDC7DB00CA49EA /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A1D39016EDC7DA00CA49EA /* stats.png */; };
@@ -237,8 +239,6 @@
 		79C15B2F16DB487A006DEFD7 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C15B2E16DB487A006DEFD7 /* pauseButton.png */; };
 		79C15B3316DB5023006DEFD7 /* resumeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C15B3116DB5023006DEFD7 /* resumeButton.png */; };
 		79C15B3416DB5023006DEFD7 /* tiredButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C15B3216DB5023006DEFD7 /* tiredButton.png */; };
-		79C427D216EA3F8500E1EA5D /* gameName.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C427D116EA3F8500E1EA5D /* gameName.png */; };
-		79C427D416EA3FBB00E1EA5D /* sizzle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79C427D316EA3FBB00E1EA5D /* sizzle.mp3 */; };
 		79CCB3B41734D77100093275 /* ObjectivesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCB3B31734D77100093275 /* ObjectivesManager.m */; };
 		79E3E445173ED9A500E0276E /* Objectives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79E3E444173ED9A500E0276E /* Objectives.plist */; };
 /* End PBXBuildFile section */
@@ -568,6 +568,8 @@
 		797520C916DFE62C0050F7B4 /* playButton1Selected-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playButton1Selected-ipad.png"; path = "Resources/playButton1Selected-ipad.png"; sourceTree = "<group>"; };
 		797520CC16DFED160050F7B4 /* soundOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soundOn.png; path = Resources/soundOn.png; sourceTree = "<group>"; };
 		797520CE16DFF6E60050F7B4 /* soundOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soundOff.png; path = Resources/soundOff.png; sourceTree = "<group>"; };
+		79994A46180B3F3D00DCB811 /* gameName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gameName.png; path = Resources/gameName.png; sourceTree = "<group>"; };
+		79994A48180B3F4E00DCB811 /* sizzle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sizzle.mp3; path = Resources/sizzle.mp3; sourceTree = "<group>"; };
 		79A1D38C16EB71EB00CA49EA /* bang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bang.mp3; path = Resources/bang.mp3; sourceTree = "<group>"; };
 		79A1D38E16EC852000CA49EA /* menuBackground2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = menuBackground2.mp3; path = Resources/menuBackground2.mp3; sourceTree = "<group>"; };
 		79A1D39016EDC7DA00CA49EA /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stats.png; path = Resources/stats.png; sourceTree = "<group>"; };
@@ -647,8 +649,6 @@
 		79C15B2E16DB487A006DEFD7 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pauseButton.png; path = Resources/pauseButton.png; sourceTree = "<group>"; };
 		79C15B3116DB5023006DEFD7 /* resumeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resumeButton.png; path = Resources/resumeButton.png; sourceTree = "<group>"; };
 		79C15B3216DB5023006DEFD7 /* tiredButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiredButton.png; path = Resources/tiredButton.png; sourceTree = "<group>"; };
-		79C427D116EA3F8500E1EA5D /* gameName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gameName.png; path = ../../../PunchGame/PunchGame/Resources/gameName.png; sourceTree = "<group>"; };
-		79C427D316EA3FBB00E1EA5D /* sizzle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sizzle.mp3; path = ../../../PunchGame/PunchGame/Resources/sizzle.mp3; sourceTree = "<group>"; };
 		79CCB3B21734D77100093275 /* ObjectivesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectivesManager.h; sourceTree = "<group>"; };
 		79CCB3B31734D77100093275 /* ObjectivesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectivesManager.m; sourceTree = "<group>"; };
 		79E3E444173ED9A500E0276E /* Objectives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Objectives.plist; sourceTree = "<group>"; };
@@ -760,7 +760,7 @@
 				794CBABF16E6886B007A540C /* tick.png */,
 				79A1D38E16EC852000CA49EA /* menuBackground2.mp3 */,
 				79B20E2316E1ED1D0069292E /* button.mp3 */,
-				79C427D316EA3FBB00E1EA5D /* sizzle.mp3 */,
+				79994A48180B3F4E00DCB811 /* sizzle.mp3 */,
 				79B20E3316E3FEB90069292E /* slide.mp3 */,
 				79A1D38C16EB71EB00CA49EA /* bang.mp3 */,
 				7913D9DB17929D970056F61D /* bellShot.mp3 */,
@@ -774,7 +774,7 @@
 				790EAEA316F35E3C00CAEBB4 /* creditsButton.png */,
 				790EAEA416F35E3C00CAEBB4 /* creditsButtonPressed-ipad.png */,
 				790EAEA516F35E3C00CAEBB4 /* creditsButtonPressed.png */,
-				79C427D116EA3F8500E1EA5D /* gameName.png */,
+				79994A46180B3F3D00DCB811 /* gameName.png */,
 				793FFA2C16CFFC77002D4874 /* Default.png */,
 				794CBAC416E79C66007A540C /* Default-PortraitUpsideDown.png */,
 				794CBAC216E79C40007A540C /* Default-568h@2x.png */,
@@ -1406,19 +1406,19 @@
 				79B20E3716E404730069292E /* statsButton.png in Resources */,
 				79B20E3816E404730069292E /* statsButtonPressed.png in Resources */,
 				79B20E3B16E405A30069292E /* tutorialButton.png in Resources */,
+				79994A47180B3F3D00DCB811 /* gameName.png in Resources */,
 				79B20E3C16E405A30069292E /* tutorialButtonPressed.png in Resources */,
 				79B20E4116E407B10069292E /* statsButton-ipad.png in Resources */,
 				79B20E4216E407B10069292E /* statsButtonPressed-ipad.png in Resources */,
 				79B20E4316E407B10069292E /* tutorialButton-ipad.png in Resources */,
 				79B20E4416E407B10069292E /* tutorialButtonPressed-ipad.png in Resources */,
+				79994A49180B3F4E00DCB811 /* sizzle.mp3 in Resources */,
 				794CBABD16E64751007A540C /* backArrow.png in Resources */,
 				794CBAC016E6886C007A540C /* cross.png in Resources */,
 				794CBAC116E6886C007A540C /* tick.png in Resources */,
 				794CBAC316E79C41007A540C /* Default-568h@2x.png in Resources */,
 				794CBAC616E79C68007A540C /* Default-PortraitUpsideDown.png in Resources */,
 				794CBAC716E79C68007A540C /* Default@2x.png in Resources */,
-				79C427D216EA3F8500E1EA5D /* gameName.png in Resources */,
-				79C427D416EA3FBB00E1EA5D /* sizzle.mp3 in Resources */,
 				7938A1F116EB56BF0043C738 /* q.png in Resources */,
 				7938A1F316EB57000043C738 /* newmenubg.png in Resources */,
 				79A1D38D16EB71EB00CA49EA /* bang.mp3 in Resources */,
